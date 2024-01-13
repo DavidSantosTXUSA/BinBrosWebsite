@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers the child elements */
+    min-height: 100vh; /* ensures the body takes up at least the full viewport height */
+}
+
+.logo-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 100px; /* adjust as needed */
+    height: auto;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+}
+
+.container, .form-container {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center; /* centers content inside the container */
+}
+
+button, input[type=submit] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+a {
+    color: #008CBA;
+    display: block; /* makes the link a block element */
+    margin-top: 20px; /* adds space above the link */
+}
+
+.mission-statement {
+    margin-top: 40px;
+    color: #4CAF50; /* adjust color as needed */
+}
