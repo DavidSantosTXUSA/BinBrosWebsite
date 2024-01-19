@@ -7,14 +7,14 @@
 <body>
     <div class="form-container">
         <h2>Sign Up</h2>
-        <form action="submit_form.php" method="post">
+        <form id="signupForm" onsubmit="return validateForm()">
             <input type="text" name="name" placeholder="Full Name" required>
             <input type="email" name="email" placeholder="Email" required>
             <input type="tel" name="phone" placeholder="Phone Number" required>
             <input type="text" name="address" placeholder="House Address" required>
-            <label><input type="checkbox" name="hasDogs" id="hasDogs"> Do you have dogs?</label>
-            <label><input type="checkbox" name="hasGateCode" id="hasGateCode" onchange="toggleGateCode()"> Is there a gate code?</label>
-            <input type="text" name="gateCode" id="gateCode" placeholder="Gate Code" style="display:none;" required>
+            <input type="checkbox" name="hasDogs" id="hasDogs"> Do you have dogs?
+            <input type="checkbox" name="hasGateCode" id="hasGateCode" onchange="toggleGateCode()"> Is there a gate code?
+            <input type="text" name="gateCode" id="gateCode" placeholder="Gate Code" style="display:none;">
             <input type="submit" value="Submit">
         </form>
         <a href="terms.html">Terms of Service</a>
@@ -22,3 +22,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
